@@ -1,5 +1,3 @@
-
-
 ## :PAREX: 
 
 ##### 1. API Reference (POST):
@@ -22,6 +20,7 @@
 - `shortname : Asset Short Name`
 - `assets : Asset Name`
 
+
 ```
 "https://apiv1.parex.market/getMarkets”
 - `X-APIKEY : Parex API Key`
@@ -34,4 +33,17 @@
 - `maincoin : MainCoin ID`
 - `pairinfo : PairCoin Name`
 - `maininfo : MainCoin Name`
+
+
+```
+"https://apiv1.parex.market/getWalletBalances”
+- `X-APIKEY : Parex API Key`
+- `X-SECRET : Parex Secret Key`
+- `X-TOKEN : Parex Token (getToken)`
+```
+- `id : line number` 
+- `address : Wallet Address`
+- `shortname : Asset Short Name`
+- `balance : Balance`
+
 
