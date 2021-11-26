@@ -98,3 +98,25 @@
 - `price : Price`
 - `remaining : Remaining`
 
+
+```
+"https://apiv1.parex.market/setSellOrder"
+- `X-APIKEY : Parex API Key`
+- `X-SECRET : Parex Secret Key`
+- `X-MARKETID : Parex Market ID`
+- `X-TOKEN : Parex Token (getToken)`
+- `X-PRICE : Price`
+- `X-AMOUNT : Amount`
+```
+
+
+```
+"https://apiv1.parex.market/setBuyOrder"
+- `X-APIKEY : Parex API Key`
+- `X-SECRET : Parex Secret Key`
+- `X-MARKETID : Parex Market ID`
+- `X-TOKEN : Parex Token (getToken)`
+- `X-PRICE : Price`
+- `X-AMOUNT : Amount`
+```
+
