@@ -47,3 +47,18 @@
 - `balance : Balance`
 
 
+```
+"https://apiv1.parex.market/getMyHistory”
+- `X-APIKEY : Parex API Key`
+- `X-SECRET : Parex Secret Key`
+- `X-TOKEN : Parex Token (getToken)`
+```
+- `type": Buy/Sell `
+- `date": Datetime `
+- `amount": Amount`
+- `price": Price`
+- `total": Total`
+- `marketid": Parex MarketID`
+- `pairinfo": PairCoin Name`
+- `maininfo": MainCoin Name`
+
