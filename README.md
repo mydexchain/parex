@@ -51,6 +51,7 @@
 "https://apiv1.parex.market/getMyHistory”
 - `X-APIKEY : Parex API Key`
 - `X-SECRET : Parex Secret Key`
+- `X-MARKETID : Parex Market ID`
 - `X-TOKEN : Parex Token (getToken)`
 ```
 - `type : Buy/Sell `
@@ -61,4 +62,30 @@
 - `marketid : Parex MarketID`
 - `pairinfo : PairCoin Name`
 - `maininfo : MainCoin Name`
+
+
+```
+"https://apiv1.parex.market/getBuyOrders”
+- `X-APIKEY : Parex API Key`
+- `X-SECRET : Parex Secret Key`
+- `X-MARKETID : Parex Market ID`
+- `X-TOKEN : Parex Token (getToken)`
+```
+- `id : line number `
+- `type : Buy/Sell `
+- `price : Price`
+- `remaining : Remaining`
+
+
+```
+"https://apiv1.parex.market/getSellOrders”
+- `X-APIKEY : Parex API Key`
+- `X-SECRET : Parex Secret Key`
+- `X-MARKETID : Parex Market ID`
+- `X-TOKEN : Parex Token (getToken)`
+```
+- `id : line number `
+- `type : Buy/Sell `
+- `price : Price`
+- `remaining : Remaining`
 
