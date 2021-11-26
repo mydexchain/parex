@@ -3,7 +3,16 @@
 ##### 1. API Reference (POST):
 
 ```
-"https://apiv1.parex.market/getToken”
+"https://apiv1.parex.market/echo"
+```
+
+```
+"https://apiv1.parex.market/ping"
+```
+
+
+```
+"https://apiv1.parex.market/getToken"
 - `X-APIKEY : Parex API Key`
 - `X-SECRET : Parex Secret Key`
 ```
@@ -11,7 +20,7 @@
 
 
 ```
-"https://apiv1.parex.market/getAssets”
+"https://apiv1.parex.market/getAssets"
 - `X-APIKEY : Parex API Key`
 - `X-SECRET : Parex Secret Key`
 - `X-TOKEN : Parex Token (getToken)`
@@ -22,7 +31,7 @@
 
 
 ```
-"https://apiv1.parex.market/getMarkets”
+"https://apiv1.parex.market/getMarkets"
 - `X-APIKEY : Parex API Key`
 - `X-SECRET : Parex Secret Key`
 - `X-TOKEN : Parex Token (getToken)`
@@ -36,7 +45,7 @@
 
 
 ```
-"https://apiv1.parex.market/getWalletBalances”
+"https://apiv1.parex.market/getWalletBalances"
 - `X-APIKEY : Parex API Key`
 - `X-SECRET : Parex Secret Key`
 - `X-TOKEN : Parex Token (getToken)`
@@ -48,7 +57,7 @@
 
 
 ```
-"https://apiv1.parex.market/getMyHistory”
+"https://apiv1.parex.market/getMyHistory"
 - `X-APIKEY : Parex API Key`
 - `X-SECRET : Parex Secret Key`
 - `X-MARKETID : Parex Market ID`
@@ -65,7 +74,7 @@
 
 
 ```
-"https://apiv1.parex.market/getBuyOrders”
+"https://apiv1.parex.market/getBuyOrders"
 - `X-APIKEY : Parex API Key`
 - `X-SECRET : Parex Secret Key`
 - `X-MARKETID : Parex Market ID`
@@ -78,7 +87,7 @@
 
 
 ```
-"https://apiv1.parex.market/getSellOrders”
+"https://apiv1.parex.market/getSellOrders"
 - `X-APIKEY : Parex API Key`
 - `X-SECRET : Parex Secret Key`
 - `X-MARKETID : Parex Market ID`
