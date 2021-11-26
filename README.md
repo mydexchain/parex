@@ -3,16 +3,16 @@
 ##### 1. API Reference (POST):
 
 ```
-"https://apiv1.parex.market/echo"
+"https://apiv1.parex.exchange/echo"
 ```
 
 ```
-"https://apiv1.parex.market/ping"
+"https://apiv1.parex.exchange/ping"
 ```
 
 
 ```
-"https://apiv1.parex.market/getToken"
+"https://apiv1.parex.exchange/getToken"
 - `X-APIKEY : Parex API Key`
 - `X-SECRET : Parex Secret Key`
 ```
@@ -20,7 +20,7 @@
 
 
 ```
-"https://apiv1.parex.market/getAssets"
+"https://apiv1.parex.exchange/getAssets"
 - `X-APIKEY : Parex API Key`
 - `X-SECRET : Parex Secret Key`
 - `X-TOKEN : Parex Token (getToken)`
@@ -31,7 +31,7 @@
 
 
 ```
-"https://apiv1.parex.market/getMarkets"
+"https://apiv1.parex.exchange/getMarkets"
 - `X-APIKEY : Parex API Key`
 - `X-SECRET : Parex Secret Key`
 - `X-TOKEN : Parex Token (getToken)`
@@ -45,7 +45,7 @@
 
 
 ```
-"https://apiv1.parex.market/getWalletBalances"
+"https://apiv1.parex.exchange/getWalletBalances"
 - `X-APIKEY : Parex API Key`
 - `X-SECRET : Parex Secret Key`
 - `X-TOKEN : Parex Token (getToken)`
@@ -57,7 +57,7 @@
 
 
 ```
-"https://apiv1.parex.market/getMyHistory"
+"https://apiv1.parex.exchange/getMyHistory"
 - `X-APIKEY : Parex API Key`
 - `X-SECRET : Parex Secret Key`
 - `X-MARKETID : Parex Market ID`
@@ -74,7 +74,7 @@
 
 
 ```
-"https://apiv1.parex.market/getBuyOrders"
+"https://apiv1.parex.exchange/getBuyOrders"
 - `X-APIKEY : Parex API Key`
 - `X-SECRET : Parex Secret Key`
 - `X-MARKETID : Parex Market ID`
@@ -87,7 +87,7 @@
 
 
 ```
-"https://apiv1.parex.market/getSellOrders"
+"https://apiv1.parex.exchange/getSellOrders"
 - `X-APIKEY : Parex API Key`
 - `X-SECRET : Parex Secret Key`
 - `X-MARKETID : Parex Market ID`
@@ -100,7 +100,7 @@
 
 
 ```
-"https://apiv1.parex.market/setSellOrder"
+"https://apiv1.parex.exchange/setSellOrder"
 - `X-APIKEY : Parex API Key`
 - `X-SECRET : Parex Secret Key`
 - `X-MARKETID : Parex Market ID`
@@ -111,7 +111,7 @@
 
 
 ```
-"https://apiv1.parex.market/setBuyOrder"
+"https://apiv1.parex.exchange/setBuyOrder"
 - `X-APIKEY : Parex API Key`
 - `X-SECRET : Parex Secret Key`
 - `X-MARKETID : Parex Market ID`
