@@ -53,12 +53,12 @@
 - `X-SECRET : Parex Secret Key`
 - `X-TOKEN : Parex Token (getToken)`
 ```
-- `type": Buy/Sell `
-- `date": Datetime `
-- `amount": Amount`
-- `price": Price`
-- `total": Total`
-- `marketid": Parex MarketID`
-- `pairinfo": PairCoin Name`
-- `maininfo": MainCoin Name`
+- `type : Buy/Sell `
+- `date : Datetime `
+- `amount : Amount`
+- `price : Price`
+- `total : Total`
+- `marketid : Parex MarketID`
+- `pairinfo : PairCoin Name`
+- `maininfo : MainCoin Name`
 
