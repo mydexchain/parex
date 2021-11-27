@@ -105,8 +105,8 @@
 - `secretkey : Parex Secret Key`
 - `marketid : Parex Market ID`
 - `token : Parex Token (getToken)`
-- `X-PRICE : Price`
-- `X-AMOUNT : Amount`
+- `price : Price`
+- `amount : Amount`
 ```
 
 
@@ -116,7 +116,7 @@
 - `secretkey : Parex Secret Key`
 - `marketid : Parex Market ID`
 - `token : Parex Token (getToken)`
-- `X-PRICE : Price`
-- `X-AMOUNT : Amount`
+- `price : Price`
+- `amount : Amount`
 ```
 
