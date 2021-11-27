@@ -23,7 +23,7 @@
 "https://apiv1.parex.exchange/getAssets"
 - `apikey : Parex API Key`
 - `secretkey : Parex Secret Key`
-- `X-TOKEN : Parex Token (getToken)`
+- `token : Parex Token (getToken)`
 ```
 - `id : Asset ID` 
 - `shortname : Asset Short Name`
@@ -34,7 +34,7 @@
 "https://apiv1.parex.exchange/getMarkets"
 - `apikey : Parex API Key`
 - `secretkey : Parex Secret Key`
-- `X-TOKEN : Parex Token (getToken)`
+- `token : Parex Token (getToken)`
 ```
 - `id : Market ID` 
 - `marketname : Market Name`
@@ -48,7 +48,7 @@
 "https://apiv1.parex.exchange/getWalletBalances"
 - `apikey : Parex API Key`
 - `secretkey : Parex Secret Key`
-- `X-TOKEN : Parex Token (getToken)`
+- `token : Parex Token (getToken)`
 ```
 - `id : line number` 
 - `address : Wallet Address`
@@ -61,7 +61,7 @@
 - `apikey : Parex API Key`
 - `secretkey : Parex Secret Key`
 - `marketid : Parex Market ID`
-- `X-TOKEN : Parex Token (getToken)`
+- `token : Parex Token (getToken)`
 ```
 - `type : Buy/Sell `
 - `date : Datetime `
@@ -78,7 +78,7 @@
 - `apikey : Parex API Key`
 - `secretkey : Parex Secret Key`
 - `marketid : Parex Market ID`
-- `X-TOKEN : Parex Token (getToken)`
+- `token : Parex Token (getToken)`
 ```
 - `id : line number `
 - `type : Buy/Sell `
@@ -91,7 +91,7 @@
 - `apikey : Parex API Key`
 - `secretkey : Parex Secret Key`
 - `marketid : Parex Market ID`
-- `X-TOKEN : Parex Token (getToken)`
+- `token : Parex Token (getToken)`
 ```
 - `id : line number `
 - `type : Buy/Sell `
@@ -104,7 +104,7 @@
 - `apikey : Parex API Key`
 - `secretkey : Parex Secret Key`
 - `marketid : Parex Market ID`
-- `X-TOKEN : Parex Token (getToken)`
+- `token : Parex Token (getToken)`
 - `X-PRICE : Price`
 - `X-AMOUNT : Amount`
 ```
@@ -115,7 +115,7 @@
 - `apikey : Parex API Key`
 - `secretkey : Parex Secret Key`
 - `marketid : Parex Market ID`
-- `X-TOKEN : Parex Token (getToken)`
+- `token : Parex Token (getToken)`
 - `X-PRICE : Price`
 - `X-AMOUNT : Amount`
 ```
