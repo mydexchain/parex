@@ -13,16 +13,16 @@
 
 ```
 "https://apiv1.parex.exchange/getToken"
-- `X-APIKEY : Parex API Key`
-- `X-SECRET : Parex Secret Key`
+- `apikey : Parex API Key`
+- `secretkey : Parex Secret Key`
 ```
 - `assets : Parex Token`
 
 
 ```
 "https://apiv1.parex.exchange/getAssets"
-- `X-APIKEY : Parex API Key`
-- `X-SECRET : Parex Secret Key`
+- `apikey : Parex API Key`
+- `secretkey : Parex Secret Key`
 - `X-TOKEN : Parex Token (getToken)`
 ```
 - `id : Asset ID` 
@@ -32,8 +32,8 @@
 
 ```
 "https://apiv1.parex.exchange/getMarkets"
-- `X-APIKEY : Parex API Key`
-- `X-SECRET : Parex Secret Key`
+- `apikey : Parex API Key`
+- `secretkey : Parex Secret Key`
 - `X-TOKEN : Parex Token (getToken)`
 ```
 - `id : Market ID` 
@@ -46,8 +46,8 @@
 
 ```
 "https://apiv1.parex.exchange/getWalletBalances"
-- `X-APIKEY : Parex API Key`
-- `X-SECRET : Parex Secret Key`
+- `apikey : Parex API Key`
+- `secretkey : Parex Secret Key`
 - `X-TOKEN : Parex Token (getToken)`
 ```
 - `id : line number` 
@@ -58,8 +58,8 @@
 
 ```
 "https://apiv1.parex.exchange/getMyHistory"
-- `X-APIKEY : Parex API Key`
-- `X-SECRET : Parex Secret Key`
+- `apikey : Parex API Key`
+- `secretkey : Parex Secret Key`
 - `X-MARKETID : Parex Market ID`
 - `X-TOKEN : Parex Token (getToken)`
 ```
@@ -75,8 +75,8 @@
 
 ```
 "https://apiv1.parex.exchange/getBuyOrders"
-- `X-APIKEY : Parex API Key`
-- `X-SECRET : Parex Secret Key`
+- `apikey : Parex API Key`
+- `secretkey : Parex Secret Key`
 - `X-MARKETID : Parex Market ID`
 - `X-TOKEN : Parex Token (getToken)`
 ```
@@ -88,8 +88,8 @@
 
 ```
 "https://apiv1.parex.exchange/getSellOrders"
-- `X-APIKEY : Parex API Key`
-- `X-SECRET : Parex Secret Key`
+- `apikey : Parex API Key`
+- `secretkey : Parex Secret Key`
 - `X-MARKETID : Parex Market ID`
 - `X-TOKEN : Parex Token (getToken)`
 ```
@@ -101,8 +101,8 @@
 
 ```
 "https://apiv1.parex.exchange/setSellOrder"
-- `X-APIKEY : Parex API Key`
-- `X-SECRET : Parex Secret Key`
+- `apikey : Parex API Key`
+- `secretkey : Parex Secret Key`
 - `X-MARKETID : Parex Market ID`
 - `X-TOKEN : Parex Token (getToken)`
 - `X-PRICE : Price`
@@ -112,8 +112,8 @@
 
 ```
 "https://apiv1.parex.exchange/setBuyOrder"
-- `X-APIKEY : Parex API Key`
-- `X-SECRET : Parex Secret Key`
+- `apikey : Parex API Key`
+- `secretkey : Parex Secret Key`
 - `X-MARKETID : Parex Market ID`
 - `X-TOKEN : Parex Token (getToken)`
 - `X-PRICE : Price`
