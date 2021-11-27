@@ -60,7 +60,7 @@
 "https://apiv1.parex.exchange/getMyHistory"
 - `apikey : Parex API Key`
 - `secretkey : Parex Secret Key`
-- `X-MARKETID : Parex Market ID`
+- `marketid : Parex Market ID`
 - `X-TOKEN : Parex Token (getToken)`
 ```
 - `type : Buy/Sell `
@@ -77,7 +77,7 @@
 "https://apiv1.parex.exchange/getBuyOrders"
 - `apikey : Parex API Key`
 - `secretkey : Parex Secret Key`
-- `X-MARKETID : Parex Market ID`
+- `marketid : Parex Market ID`
 - `X-TOKEN : Parex Token (getToken)`
 ```
 - `id : line number `
@@ -90,7 +90,7 @@
 "https://apiv1.parex.exchange/getSellOrders"
 - `apikey : Parex API Key`
 - `secretkey : Parex Secret Key`
-- `X-MARKETID : Parex Market ID`
+- `marketid : Parex Market ID`
 - `X-TOKEN : Parex Token (getToken)`
 ```
 - `id : line number `
@@ -103,7 +103,7 @@
 "https://apiv1.parex.exchange/setSellOrder"
 - `apikey : Parex API Key`
 - `secretkey : Parex Secret Key`
-- `X-MARKETID : Parex Market ID`
+- `marketid : Parex Market ID`
 - `X-TOKEN : Parex Token (getToken)`
 - `X-PRICE : Price`
 - `X-AMOUNT : Amount`
@@ -114,7 +114,7 @@
 "https://apiv1.parex.exchange/setBuyOrder"
 - `apikey : Parex API Key`
 - `secretkey : Parex Secret Key`
-- `X-MARKETID : Parex Market ID`
+- `marketid : Parex Market ID`
 - `X-TOKEN : Parex Token (getToken)`
 - `X-PRICE : Price`
 - `X-AMOUNT : Amount`
